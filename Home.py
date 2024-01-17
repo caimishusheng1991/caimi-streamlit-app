@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 16 21:09:42 2024
-
-@author: yucongchang
-"""
-
 import streamlit as st
 
 st.set_page_config(
