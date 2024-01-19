@@ -88,4 +88,5 @@ dfPivot = df.pivot_table(index=['date', 'day_of_week'],
                          aggfunc='min')
 dfPivot.reset_index(inplace=True)
 
+st.write("## Availability with the Min. Price")
 st.dataframe(dfPivot, hide_index=True)
