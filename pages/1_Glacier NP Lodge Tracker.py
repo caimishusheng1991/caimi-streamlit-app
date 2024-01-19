@@ -84,4 +84,4 @@ dfPivot = df.pivot_table(index=['date', 'day_of_week'],
                          aggfunc='min')
 dfPivot.reset_index(inplace=True)
 
-st.dataframe(dfPivot)
+st.dataframe(dfPivot, hide_index=True)
