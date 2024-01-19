@@ -4,6 +4,10 @@ import pandas as pd
 from datetime import datetime
 import streamlit as st
 
+st.set_page_config(
+    page_title="Glacier NP Lodge",
+    mode='wide'
+)
 
 st.write("""
 # Glacier National Park Lodge Tracker - 2024         
