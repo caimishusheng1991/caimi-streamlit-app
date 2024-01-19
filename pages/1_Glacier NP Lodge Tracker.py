@@ -6,7 +6,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Glacier NP Lodge",
-    mode='wide'
+    layout='wide'
 )
 
 st.write("""
