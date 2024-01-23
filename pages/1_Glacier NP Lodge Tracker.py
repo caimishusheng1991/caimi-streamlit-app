@@ -90,3 +90,6 @@ dfPivot.reset_index(inplace=True)
 
 st.write("## Availability with the Min. Price")
 st.dataframe(dfPivot, hide_index=True)
+
+link_to_book = "https://secure.glaciernationalparklodges.com/booking/lodging"
+st.write("Book a Room With: [link](%s)" % link_to_book)
