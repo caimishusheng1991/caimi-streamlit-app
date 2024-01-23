@@ -92,6 +92,5 @@ st.write("## Availability with the Min. Price")
 st.dataframe(dfPivot, hide_index=True)
 
 
-
 link_to_book = "https://secure.glaciernationalparklodges.com/booking/lodging"
-st.write(link_to_book)
+st.write("## Use this [link](%s) to book a room!" % link_to_book)
