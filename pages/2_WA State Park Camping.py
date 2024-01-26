@@ -50,7 +50,7 @@ list_dates = []
 list_weekdays = []
 
 new_date = cur_date + datetime.timedelta(days=1)
-while new_date <= cur_date + datetime.timedelta(days=31):
+while new_date <= cur_date + datetime.timedelta(days=28):
     new_weekday = new_date.strftime('%a')
     if new_weekday in ['Fri', 'Sat']:
         list_dates.append(new_date)
@@ -59,7 +59,7 @@ while new_date <= cur_date + datetime.timedelta(days=31):
 
 st.write("## Going to request for the dates below: ")
 st.write(list_dates)
-st.write(list_weekdays)
+# st.write(list_weekdays)
 
 # request the availability for the list of dates and the selected state parks
 list_ava = []
