@@ -50,7 +50,7 @@ list_dates = []
 list_weekdays = []
 
 new_date = cur_date + datetime.timedelta(days=1)
-while new_date <= cur_date + datetime.timedelta(days=28):
+while new_date <= cur_date + datetime.timedelta(days=14):
     new_weekday = new_date.strftime('%a')
     if new_weekday in ['Fri', 'Sat']:
         list_dates.append(new_date)
