@@ -35,9 +35,9 @@ def request_camp_site(map_id, start_date):
     }
     res = requests.get(url, data=j)
     if res.status_code != 200:
-        print(f"request for {dict_map_ids[map_id]} and {start_date} failed")
+        st.write(f"😤 request for {dict_map_ids[map_id]} and {start_date} failed")
     else:
-        print(f"request for {dict_map_ids[map_id]} and {start_date} succeeded")
+        st.write(f"😋 request for {dict_map_ids[map_id]} and {start_date} succeeded")
     return res
 
 
